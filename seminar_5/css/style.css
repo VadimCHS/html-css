@@ -273,15 +273,18 @@ body {
     text-align: center;
 }
 
-.sirvise_body_item {
-    padding-bottom: 50px;
+.servise_body_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.services_body_icon_1 {
-    margin-bottom: 15px;
+.servise_body_item_content {
+    padding: 0px 30px 50px 30px;
 }
 
-.sirvise_body_item_header {
+.servise_body_item_header {
     margin-bottom: 22px;
     color: #000;
     font-size: 24px;
@@ -290,7 +293,7 @@ body {
     line-height: normal;
 }
 
-.sirvise_body_item_text {
+.servise_body_item_paragraph {
     margin-bottom: 39px;
     color: #AAA;
     text-align: center;
