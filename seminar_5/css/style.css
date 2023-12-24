@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("../font/GilroySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../font/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../font/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../font/GilroyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Gilroy-Bold;
+}
+
+.center {
+    padding-left: calc(50% - 1173px/2);
+    padding-right: calc(50% - 1173px/2);
+}
+
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main_header_logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.main_header_logo_text {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main_header_menu {
+    font-family: Gilroy-SemiBold;
+    display: flex;
+    gap: 36px;
+}
+
+.menu_link {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.color_text {
+    color: #F25822;
+}
+
+.main_content {
+    display: flex;
+    padding-top: 44px;
+    padding-bottom: 162px;
+    gap: 40.94px;
+}
+
+.main_content_title {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main_content_paragraph {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 17px;
+    margin-right: 56px;
+    margin-bottom: 37px;
+}
+
+.main_content_button {
+    display: flex;
+    align-items: center;
+    gap: 108px;
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button_link {
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_content_img {
+    padding-right: 63.98px;
+}
+
+.main_partner_logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
+
+.about_us {
+    display: flex;
+    align-items: center;
+    background-color: #FAFAFA;
+    background-image: url(../img/Vector\ 1.svg),
+                        url(../img/Vector\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.about_us_content_title {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.about_us_content_paragraph {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 35px;
+}
+
+.about_us_content_img {}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.features_item {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.features_item_icon {
+    margin-bottom: 25px;
+}
+
+.features_item_header {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.features_item_paragraph {
+    color: #666;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+
+.features_item_link {
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.shadow {
+    box-shadow: 0px 40px 100px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services {
+    background-color: #FAFAFA;
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.services_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: calc(50% - 628px/2);
+    padding-right: calc(50% - 628px/2);
+    padding-bottom: 55px;
+    gap: 19px;
+}
+
+.services_title_header {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services_title_paragraph {
+    color: #666;
+    font-family: "Gilroy-Regular";
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.services_body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.sirvise_body_item {
+    padding-bottom: 50px;
+}
+
+.services_body_icon_1 {
+    margin-bottom: 15px;
+}
+
+.sirvise_body_item_header {
+    margin-bottom: 22px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sirvise_body_item_text {
+    margin-bottom: 39px;
+    color: #AAA;
+    text-align: center;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.services_body_button {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+}
