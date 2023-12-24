@@ -181,8 +181,6 @@ body {
     margin-bottom: 35px;
 }
 
-.about_us_content_img {}
-
 .features {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
