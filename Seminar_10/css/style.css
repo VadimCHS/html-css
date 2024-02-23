@@ -612,21 +612,14 @@
     z-index: 5;
 }
 
-@media (min-width: 768px) and (max-width: 1165px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .center {
         padding-left: calc(50% - 734.581px/2);
         padding-right: calc(50% - 734.581px/2);
     }
 
-    .header {
-        padding-left: calc(50% - 718.941px/2);
-        padding-right: calc(50% - 710.071px/2);
-    }
-
     .top_promo {
         gap: 39px;
-        padding-left: calc(50% - 769.572px/2);
-        padding-right: calc(50% - 769.572px/2);
     }
 
     .img_promo {
